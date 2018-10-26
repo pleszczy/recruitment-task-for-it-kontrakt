@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'pl.dashboard.nbp'
+version '0.1-SNAPSHOT'
+
+sourceCompatibility =10
+targetCompatibility=10
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.3.1'
+}
